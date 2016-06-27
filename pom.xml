@@ -9,10 +9,9 @@
     <version>1.0</version>
 
     <properties>
-        <base_url>http://google.com</base_url>
-        <remote>http://localhost:5566/wd/hub</remote>
-        <browser>chrome</browser>
+        <node_url>http://localhost:4444/wd/hub</node_url>
         <platform>WIN10</platform>
+        <browser>chrome</browser>
     </properties>
 
     <dependencies>
@@ -46,8 +45,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <argLine>
-                        -Dbase_url=${base_url}
-                        -Dnode_url=${remote}
+                        -Dnode_url=${node_url}
                         -Dbrowser=${browser}
                         -Dplatform=${platform}
                     </argLine>
