@@ -1,0 +1,6 @@
+config\MyGridProvider$CustomerWebProvider.class
+pages\GoogleResultPage.class
+config\WebDriverFactory.class
+pages\GoogleSearchPage.class
+config\Capabilites.class
+config\MyGridProvider.class
